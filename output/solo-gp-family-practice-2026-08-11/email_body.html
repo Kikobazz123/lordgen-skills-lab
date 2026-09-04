@@ -1,0 +1,93 @@
+<html>
+<body style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #222; line-height: 1.5;">
+
+<h2 style="margin-bottom:4px;">CLIENT PITCH</h2>
+<p style="margin-top:0; color:#555;">Solo GP / Family Practice &mdash; Prospective Client</p>
+<p>Attached: <b>pitch.pdf</b> (2 pages) &mdash; page 1 is the pitch text (Situation &rarr; Complication &rarr; Recommendation: AI Knowledge Assistant &rarr; Proof &rarr; Ask), page 2 is the grounded illustration brief, rendered via Cloudflare Workers AI (FLUX.1 Schnell) and embedded directly.</p>
+<p style="background:#fff3cd; border:1px solid #ffe69c; padding:8px 12px;">
+DRAFT. Requires human review and approval before this is sent to the actual prospect, emailed externally, or published anywhere. For your own review only.
+</p>
+<p>This trade ("solo GP / family practice") is not in the <code>lordgen-post</code> friction table &mdash; same Discovery Q&amp;A path used for the earlier facial-beautification pitch, not the listed-trade path. Worth adding if this profession recurs.</p>
+
+<hr style="margin:24px 0; border:none; border-top:1px solid #ccc;">
+
+<h2 style="margin-bottom:4px;">MCP / TOOLS &mdash; FOR DEVELOPER</h2>
+<p style="margin-top:0; color:#555;">Full tool-scout credentials snapshot for this project, refreshed this round. <b>Gmail sending quota researched via Perplexity this time</b> (new entry &mdash; it was in active use across three sends but had never actually been added to the catalogue until now).</p>
+
+<table cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:13px;">
+<tr style="background:#222; color:#fff; text-align:left;">
+  <th style="border:1px solid #999;">Capability</th>
+  <th style="border:1px solid #999;">Tool (free/open first)</th>
+  <th style="border:1px solid #999;">Free tier</th>
+  <th style="border:1px solid #999;">Credential status</th>
+  <th style="border:1px solid #999;">Researched via</th>
+</tr>
+<tr>
+  <td style="border:1px solid #ccc;">Email / transactional send</td>
+  <td style="border:1px solid #ccc;">Gmail API (OAuth)</td>
+  <td style="border:1px solid #ccc;">500 recipients/day; 1.2M quota units/min/project; send=100 units/call, draft=10 units/call</td>
+  <td style="border:1px solid #ccc; color:green;">Connected &mdash; reusing Newsletter Demo's authorization</td>
+  <td style="border:1px solid #ccc; color:#0a7;"><b>Perplexity (new)</b></td>
+</tr>
+<tr>
+  <td style="border:1px solid #ccc;">Image generation</td>
+  <td style="border:1px solid #ccc;">Cloudflare Workers AI (FLUX.1 Schnell)</td>
+  <td style="border:1px solid #ccc;">10,000 Neurons/day (~2,000 small images), no card required</td>
+  <td style="border:1px solid #ccc; color:green;">Configured &mdash; used for this pitch's illustration</td>
+  <td style="border:1px solid #ccc;">WebSearch (2026-08-10)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #ccc;">Research</td>
+  <td style="border:1px solid #ccc;">Perplexity Sonar / WebSearch</td>
+  <td style="border:1px solid #ccc;">Perplexity: paid API, no free tier. WebSearch: free, no key</td>
+  <td style="border:1px solid #ccc; color:green;">Both usable &mdash; Perplexity configured and used above</td>
+  <td style="border:1px solid #ccc;">&mdash;</td>
+</tr>
+<tr>
+  <td style="border:1px solid #ccc;">Project/work management</td>
+  <td style="border:1px solid #ccc;">ClickUp</td>
+  <td style="border:1px solid #ccc;">Free Forever: unlimited members, ~100MB storage, 5 Spaces</td>
+  <td style="border:1px solid #ccc; color:#b8860b;">MCP connector still shows as requiring authorization</td>
+  <td style="border:1px solid #ccc;">WebSearch (2026-08-10)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #ccc;">Hosting/deployment</td>
+  <td style="border:1px solid #ccc;">Vercel Hobby / Render Free</td>
+  <td style="border:1px solid #ccc;">Vercel: 100GB bandwidth, non-commercial only. Render: 512MB RAM</td>
+  <td style="border:1px solid #ccc;">Vercel connected. <span style="color:#b8860b;">Render still requires authorization.</span></td>
+  <td style="border:1px solid #ccc;">WebSearch (2026-08-10)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #ccc;">CRM / outreach</td>
+  <td style="border:1px solid #ccc;">HubSpot Free CRM / Apollo.io Free</td>
+  <td style="border:1px solid #ccc;">HubSpot: 2 users, 1,000 contacts. Apollo: 900 credits/seat/year</td>
+  <td style="border:1px solid #ccc; color:green;">Both connected via MCP</td>
+  <td style="border:1px solid #ccc;">WebSearch (2026-08-10)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #ccc;">Design / brand assets</td>
+  <td style="border:1px solid #ccc;">Canva Free / Adobe Express Free</td>
+  <td style="border:1px solid #ccc;">Canva: 5GB storage. Adobe Express: 25 AI credits/month</td>
+  <td style="border:1px solid #ccc; color:green;">Both connected via MCP</td>
+  <td style="border:1px solid #ccc;">WebSearch (2026-08-10)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #ccc;">Automation/workflow</td>
+  <td style="border:1px solid #ccc;">n8n Community Edition (self-hosted)</td>
+  <td style="border:1px solid #ccc;">100% free, unlimited executions, ~$5-7/mo VPS to host</td>
+  <td style="border:1px solid #ccc;">Not connected &mdash; proven pattern (Newsletter Demo project), not wired into skills-lab</td>
+  <td style="border:1px solid #ccc;">WebSearch (2026-08-10)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #ccc;">Web research/scraping</td>
+  <td style="border:1px solid #ccc;">Firecrawl</td>
+  <td style="border:1px solid #ccc;">1,000 credits/month, 2 concurrent requests</td>
+  <td style="border:1px solid #ccc; color:green;">Connected (MCP + skill)</td>
+  <td style="border:1px solid #ccc;">WebSearch (2026-08-10)</td>
+</tr>
+</table>
+
+<p style="margin-top:20px; color:#777; font-size:12px;">Generated by lordgen-pitch + tool-scout (skills-lab). No secret values are ever included in this table &mdash; only presence/absence and where to obtain each credential. Full sourcing (including Perplexity citations) lives in tool-scout's catalogue.md.</p>
+
+</body>
+</html>
